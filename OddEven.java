@@ -20,11 +20,8 @@ public class OddEven {
         }
 
         // Determine if the number is odd or even
-        if (number % 2 == 0) {
-            System.out.println("Entered number " + number + " is even");
-        } else {
-            System.out.println("Entered number " + number + " is odd");
-        }
+        String messageOddEven = (number % 2 == 0) ? "Entered number " + number + " is even" : "Entered number " + number + " is odd";
+        System.out.println(messageOddEven);
 
         // Determine if the number is positive, negative, or zero
         if (number > 0) {
